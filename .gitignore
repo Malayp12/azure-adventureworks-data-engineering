@@ -1,0 +1,45 @@
+# Secrets / credentials
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.pfx
+*.cer
+credentials.*
+secrets.*
+
+# Azure / local config that may contain credentials
+local.settings.json
+appsettings.Development.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter / Databricks notebook temp files
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Logs
+*.log
+
+# Power BI temporary lock/cache files
+*.pbix.lock
+*.pbit.lock
